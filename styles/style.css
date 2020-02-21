@@ -279,6 +279,7 @@ input[name="add-comment"]{
   margin-right: 100px;
 }
 .history-list__status{
+  width: 32px;
   color: #3973e6;
   text-transform: uppercase;
 }
@@ -304,9 +305,7 @@ input[name="add-comment"]{
   padding: 15px 20px;
   list-style: initial;
 }
-.box-all-info__notices-list .notices-list__title{
 
-}
 .show{
   display: block;
 }
