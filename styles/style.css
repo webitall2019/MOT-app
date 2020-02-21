@@ -63,6 +63,7 @@ header{
   margin-bottom: 50px;
 }
 .logo{
+  font-family: 'Raleway', sans-serif;
   margin-right: 65px;
   font-size: 16px;
 }
@@ -190,7 +191,7 @@ main .content, .info__allowed{
   justify-content: space-between;
 }
 .details__info li:not(:last-child){
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #f6f2f2;
 }
 .details__info li span:last-child, .allowed__list{
   font-size: 12px;
@@ -287,6 +288,11 @@ input[name="add-comment"]{
   font-weight: 600;
   list-style: none!important;
 }
+.notices-list__title{
+  position: relative;
+  left: -39px;
+  padding-left: 0!important;
+}
 .history-list__mileage{
   margin-right: 20px;
 }
@@ -298,11 +304,10 @@ input[name="add-comment"]{
   justify-content: flex-end;
 }
 .box-all-info__notices-list{
-  max-width: 55%;
-  padding-right: 10px;
+  padding-right: 26px;
 }
 .box-all-info__notices-list li{
-  padding: 15px 20px;
+  padding: 15px 0px;
   list-style: initial;
 }
 
