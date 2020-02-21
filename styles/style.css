@@ -52,7 +52,7 @@ button, input{
   font-family: inherit;
 }
 .container{
-  max-width: 1195px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -106,7 +106,7 @@ nav{
   align-items: center;
 }
 .tabs__list li:not(:last-child){
-  margin-right: 44px;
+  margin-right: 7px;
 }
 .tabs__list__item {
   display: flex;
@@ -182,9 +182,9 @@ main .content, .info__allowed{
 .title__img{
   margin-right: 16px;
 }
-/*.details__info{
+.details__info{
   padding: 15px 20px;
-}*/
+}
 
 .details__info li{
   display: flex;
@@ -198,8 +198,11 @@ main .content, .info__allowed{
   font-weight: 600;
   color: #1a1a1a;
 }
-.info-block__title, .details__info li{
+.info-block__title{
   padding: 15px 20px;
+}
+.details__info li{
+  padding: 15px 0px;
 }
 .allowed__list {
   display: flex;
