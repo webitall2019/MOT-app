@@ -3,7 +3,7 @@
 }
 @media screen and (max-width: 1024px){
   .tabs__list li:not(:last-child){
-    margin-right: 9px;
+    margin-right: 12px;
   } 
 }
 @media screen and (max-width: 768px){

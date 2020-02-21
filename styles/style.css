@@ -106,7 +106,7 @@ nav{
   align-items: center;
 }
 .tabs__list li:not(:last-child){
-  margin-right: 41px;
+  margin-right: 44px;
 }
 .tabs__list__item {
   display: flex;
@@ -124,8 +124,7 @@ nav{
   color: #666666;
 }
 .tabs__list__item:hover:not(.active-tab){
-  background-color: #9a9a9a;
-  color: #fff;
+  border-color: #1d61e2;
 }
 .tabs__list__item img{
   max-width: 16px;
@@ -142,11 +141,12 @@ nav{
 /* btn reset reminder */
 .reminder{
   position: relative; 
-  margin-bottom: 100px;
+  height: 13px;
+  margin: 35px auto 28px auto;
 }
 .reset-reminder{
   position: absolute;
-  top: 50px;
+  top: 0px;
   right: 25px;
   font-size: 12px;
   font-weight: 600;
@@ -182,9 +182,9 @@ main .content, .info__allowed{
 .title__img{
   margin-right: 16px;
 }
-.details__info{
+/*.details__info{
   padding: 15px 20px;
-}
+}*/
 
 .details__info li{
   display: flex;
@@ -307,7 +307,7 @@ input[name="add-comment"]{
   padding-right: 26px;
 }
 .box-all-info__notices-list li{
-  padding: 15px 0px;
+  padding: 10px 0px;
   list-style: initial;
 }
 
