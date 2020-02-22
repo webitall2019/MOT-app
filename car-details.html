@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>summary-page</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
+</head>
+<!-- header  -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          MOT Reminder
+        </div>
+        <ul class="header__header-list">
+          <li class="header-list__item active"><a href="#">Cars</a></li>
+          <li class="header-list__item"><a href="#">Imports</a></li>
+        </ul>
+        <div class="header__drop-down">
+          <span class="drop-down__number">workshop-10</span>
+          <img src="images/arrow-down.svg" alt="arrow-down">
+          <div class="drop-down-list">
+            <ul>
+              <li><a href="#">settings</a></li>
+              <li><a href="#">some text</a></li>
+              <li><a href="#">some text</a></li>
+              <li><a href="#">some text</a></li>
+              <li><a href="#">quit</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header  -->
+
+  <!-- service tabs  -->
+  <div class="tabs">
+    <div class="container">
+      <ul class="tabs__list">
+        <li>
+          <a class="tabs__list__item" href="summary-page.html"> <img src="images/ic-summary-active.svg"
+              alt="summary">Summary</a>
+        </li>
+        <li>
+          <a class="tabs__list__item active-tab" href="#"><img src="images/ic-car-details-dark.svg" alt="car">Car Details</a>
+        </li>
+        <li>
+          <a class="tabs__list__item" href="#"><img src="images/ic-customer-details-dark.svg" alt="details">Customer
+            Details</a></li>
+        <li>
+          <a class="tabs__list__item" href="#"><img src="images/ic-mot-service.svg" alt="service">MOT Services</a>
+        </li>
+        <li>
+          <a class="tabs__list__item" href="#"><img src="images/ic-gdpr.svg" alt="GDPR">GDPR</a></li>
+        <li>
+          <a class="tabs__list__item" href="#"><img src="images/ic-actions-log.svg" alt="actions">Actions Log</a></li>
+        <li>
+          <a class="tabs__list__item" href="#"><img src="images/ic-system-logs.svg" alt="system">System Logs</a></li>
+      </ul>
+    </div>
+  </div>
+  <main>
+    <div class="container">
+      <div class="content">
+        <div class="car-info">
+          <div class="car-info__left-side car-info-block info-block">
+            <div class="details__title info-block__title">
+              <img src="images/ic-car-details-dark.svg" alt="user" class="title__img">
+              <span class="title__text">Car Details</span>
+            </div>
+            <ul class="details__info">
+              <li class="info__reg-field">
+                <span>Reg</span>
+                <span class="name-field__current-reg">PX15UOP</span>
+              </li>
+              <li class="info__due-date-field">
+                <span>MOT test due Date</span>
+                <span class="due-date-field__due-date">2020-06-13</span>
+              </li>
+              <li class="info__Brand">
+                <span>Brand</span>
+                <span class="brand__current"><img src="images/bitmap.png" alt="audi">AUDI</span>
+              </li>
+              <li class="info__model">
+                <span>Model</span>
+                <span class="model__current">Q7</span>
+              </li>
+              <li class="info__mot-due-in">
+                <span>Mot Due in</span>
+                <span class="mot-due-in">Due in 50 days/50 days overdue</span>
+              </li>
+            </ul>
+          </div>
+          <div class="car-info__right-side car-info-block  info-block">
+            <div class="details__title info-block__title">
+              <img src="images/ic-comments-dark.svg" alt="user" class="title__img">
+              <span class="title__text">Comments</span>
+            </div>
+            <ul class="details__info">
+              <li class="info__reg-field">
+                <span>Reg</span>
+                <span class="name-field__current-reg">PX15UOP</span>
+              </li>
+              <li class="info__due-date-field">
+                <span>MOT test due Date</span>
+                <span class="due-date-field__due-date">2020-06-13</span>
+              </li>
+              <li class="info__Brand">
+                <span>Brand</span>
+                <span class="brand__current"><img src="images/bitmap.png" alt="audi">AUDI</span>
+              </li>
+              <li class="info__model">
+                <span>Model</span>
+                <span class="model__current">Q7</span>
+              </li>
+              <li class="info__mot-due-in">
+                <span>Mot Due in</span>
+                <span class="mot-due-in">Due in 50 days/50 days overdue</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

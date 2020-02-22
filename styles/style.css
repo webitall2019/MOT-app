@@ -339,7 +339,18 @@ input[name="add-comment"]{
   padding: 10px 0px;
   list-style: initial;
 }
-
+/* car-details page styles */
+.car-info{
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+}
+.car-info-block{
+  width: 48%;
+}
+.car-info__left-side{
+  margin-right: 20px;
+}
 .show{
   display: block;
 }
