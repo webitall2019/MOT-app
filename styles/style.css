@@ -36,9 +36,9 @@ img{
 /* end serialize */
 
 body{
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -91,9 +91,34 @@ nav{
   letter-spacing: 0.12px;
   cursor: pointer;
 }
+/* drop-down list */
+.drop-down-list{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 115px;
+  padding: 5px;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+  transition: ease .3s;
+  transform: translateY(-100px);
+  opacity: 0;
+  display: none;
+  z-index: 20;
+  background-color: #fff;
+}
+.drop-down-list li{
+  padding: 5px 0px;
+}
+.drop-down-show{
+  transform: translateY(0px);
+  opacity: 1;
+  display: block;
+}
 .drop-down__number{
   margin-right: 16px;
 }
+
 /* end header */
 
 /* tab list */
@@ -115,7 +140,7 @@ nav{
   border: 1px solid #9a9a9a;;
   border-radius: 16px;
   padding: 8px 20px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -194,7 +219,7 @@ main .content, .info__allowed{
   border-bottom: 1px solid #f6f2f2;
 }
 .details__info li span:last-child, .allowed__list{
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   color: #1a1a1a;
 }
@@ -307,6 +332,7 @@ input[name="add-comment"]{
   justify-content: flex-end;
 }
 .box-all-info__notices-list{
+  max-width: 54%;
   padding-right: 26px;
 }
 .box-all-info__notices-list li{

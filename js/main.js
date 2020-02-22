@@ -15,4 +15,12 @@ document.addEventListener("DOMContentLoaded", function(){
     });
   }
   
+  /* header drop-down */
+  var header__drop_down = document.querySelector('.header__drop-down');
+  
+  header__drop_down.addEventListener('click', function(){
+    var drop_down_list = document.querySelector('.drop-down-list');
+    console.log(drop_down_list);
+    drop_down_list.classList.toggle('drop-down-show');
+  })
 });
