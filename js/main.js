@@ -43,13 +43,13 @@ document.addEventListener("DOMContentLoaded", function(){
   for(let i=0; i < info_btn.length; i++ ){
     
     info_btn[i].addEventListener('click', function(){
-      body.classList.toggle('body-wrap');
-      info_modal_box[i].classList.toggle('hide');
+      body.classList.add('body-wrap');
+      info_modal_box[i].classList.remove('hide');
     });
-    /* got_it_btn[i].addEventListener('click', function(){
-      body.classList.remove('body-wrap');
-    }) */
-    
+          got_it_btn[i].addEventListener('click', function(){
+          body.classList.remove('body-wrap');
+          info_modal_box[i].classList.add('hide');
+        })
   }
   
   
