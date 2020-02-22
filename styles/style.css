@@ -15,6 +15,10 @@ body{
 .active{
   color: #1d61e2;
 }
+.switcher-move{
+  left: 0px;
+  background-color: #3973e6!important;
+}
 .active-bg{
   background-color: #3973e6;
 }
@@ -416,6 +420,7 @@ input[name="add-comment"]{
   width: 51px;
   height: 28px;
   background-color: #3973e6;
+  border: 1px solid #3973e6;
   cursor: pointer;
 }
 .switcher_btn-inside{
@@ -432,9 +437,11 @@ input[name="add-comment"]{
 /* reminder boxes */
 .notifications-box{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .notifications-box__reminder{
+  position: relative;
   flex-basis: 27%;
   max-width: 300px;
   min-height: 165px;
@@ -486,9 +493,10 @@ input[name="add-comment"]{
 /* info modal */
 .info-modal{
   position: absolute;
-  max-width: 300px;
+  top: 0;
+  right: -100%;
+  max-width: 260px;
   padding: 20px;
-  /* border: 1px solid red; */
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -497,13 +505,37 @@ input[name="add-comment"]{
   background-color: #fff;
   text-transform: none;
 }
+.info-modal:before{
+  position: absolute;
+  transform: rotateZ(-90deg);
+  left: -13px;
+  top: 50px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 15px 10px;
+  border-color: transparent transparent #fff transparent;
+}
+
 .info-modal__title{
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 14px;
 }
+.info-modal__text{
+  margin-bottom: 115px;
+}
 .info-modal__text span{
   font-weight: 500;
+}
+.info-modal__btn{
+  display: block;
+  max-width: 125px;
+  margin: 0 auto;
+  padding: 6px;
+  border: 1px solid #3973e6;
+  text-align: center;
 }
 .show{
   display: block;

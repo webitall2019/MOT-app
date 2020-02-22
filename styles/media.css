@@ -3,4 +3,9 @@
   .tabs__list{
     justify-content: center;
   }
+  
+  .notifications-box__reminder, .notifications-box__reminder:nth-child(3n+3){
+    flex-basis: 25%;
+    margin-right: 10px;
+  }
 }
