@@ -90,6 +90,8 @@ nav{
   right: 25px;
   letter-spacing: 0.12px;
   cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
 }
 /* drop-down list */
 .drop-down-list{
@@ -350,6 +352,13 @@ input[name="add-comment"]{
 }
 .car-info__left-side{
   margin-right: 20px;
+}
+.car-info__right-side .info__fuel-field{
+  padding-top: 0px;
+}
+.edit-icon{
+  margin-right: 12px;
+  cursor: pointer;
 }
 .show{
   display: block;
