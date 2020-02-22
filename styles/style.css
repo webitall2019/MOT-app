@@ -2,10 +2,21 @@
 body{
  --main-color: #333;
  --user-info-color: #1a1a1a;
- 
+}
+.mb50{
+  margin-bottom: 50px;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+.mb54{
+  margin-bottom: 54px;
 }
 .active{
   color: #1d61e2;
+}
+.active-bg{
+  background-color: #3973e6;
 }
 .box-info-fail{
   color: #fa649f!important;
@@ -97,10 +108,11 @@ nav{
 .drop-down-list{
   position: absolute;
   right: 0;
-  top: 20px;
+  top: 35px;
   width: 115px;
   padding: 5px;
   border: 1px solid #e6e6e6;
+  border-top: none;
   text-align: center;
   transition: ease .3s;
   transform: translateY(-100px);
@@ -345,7 +357,6 @@ input[name="add-comment"]{
 .car-info{
   display: flex;
   width: 100%;
-  padding-top: 50px;
 }
 .car-info-block{
   width: 48%;
@@ -358,6 +369,99 @@ input[name="add-comment"]{
 }
 .edit-icon{
   margin-right: 12px;
+  cursor: pointer;
+}
+/* customer details page styles */
+.customer-id{
+  position: absolute;
+  right: 20px;
+  color: #9a9a9a;
+}
+/* MOT nofications settings styles */
+.sub-tabs{
+  margin-bottom: 34px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666666;
+}
+.sub-tabs .active{
+  margin-right: 30px;
+}
+/* switcher notifications */
+.switcher{
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.switcher>span{
+  margin-right: 54px;
+}
+.switcher_btn{
+  position: relative;
+  width: 51px;
+  height: 28px;
+  background-color: #3973e6;
+  cursor: pointer;
+}
+.switcher_btn-inside{
+  position: absolute;
+  right: 1px;
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+}
+.switcher_btn-inside, .switcher_btn{
+  border-radius: 30px;
+}
+/* reminder boxes */
+.notifications-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+.notifications-box__reminder{
+  flex-basis: 27%;
+  max-width: 300px;
+  min-height: 198px;
+  margin: 0px 20px 20px 0px;
+  padding: 20px;
+  border: 1px solid #979797;
+}
+.notifications-box__reminder:nth-child(3n+3){
+  margin-right: 0px;
+}
+.reminder__title{
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #333333;
+}
+.reminder__text{
+  font-size: 12px;
+  line-height: 1.5;
+  color: #9a9a9a;
+}
+/* reminder buttons */
+.reminder__buttons{
+  display: flex;
+  text-transform: uppercase;
+}
+.left__button{
+  color:#fff;
+  background-color: #3973e6;
+  margin-right: 10px;
+}
+.right__button{
+  border: 1px solid #3973e6;
+  color: #3973e6;
+}
+.left__button, .right__button{
+  flex-basis: 50%;
+  max-width: 125px;
+  padding: 8px 48px;
+  text-align: center;
   cursor: pointer;
 }
 .show{
