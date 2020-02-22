@@ -430,6 +430,7 @@ input[name="add-comment"]{
   width: 28px;
   height: 28px;
   background-color: #fff;
+  transition: ease .5s;
 }
 .switcher_btn-inside, .switcher_btn{
   border-radius: 30px;
