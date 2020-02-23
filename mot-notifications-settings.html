@@ -43,11 +43,12 @@
     <div class="container">
       <ul class="tabs__list">
         <li>
-          <a class="tabs__list__item " href="index.html"> <img src="images/ic-summary-active.svg"
-              alt="summary">General Information</a>
+          <a class="tabs__list__item " href="index.html"> <img src="images/ic-summary-active.svg" alt="summary">General
+            Information</a>
         </li>
         <li>
-          <a class="tabs__list__item active-tab" href="mot-notifications-settings.ht,l"><img src="images/ic-car-details-dark.svg" alt="car">MOT Notification Settings</a>
+          <a class="tabs__list__item active-tab" href="mot-notifications-settings.html"><img
+              src="images/ic-car-details-dark.svg" alt="car">MOT Notification Settings</a>
         </li>
         <li>
           <a class="tabs__list__item" href="account.html"><img src="images/ic-customer-details-dark.svg"
@@ -66,150 +67,160 @@
       <div class="switcher_btn"><span class="switcher_btn-inside"></span></div>
     </div>
   </div>
-<main class="tab-content">
-  <div class="container ">
-    <div class="notifications-box tab-pane fade show" id="mot-msg">
-      <div class="notifications-box__reminder">
-        <span class="reminder__title">1-st Reminder</span>
-        <p class="reminder__text">The second reminder cannot be earlier than first reminder.  Second reminder should be send no later than 1 day before car's MOT is dueThe second reminder</p>
-        <div class="reminder__buttons">
-          <div class="left__button">EDIT</div>
-          <div class="right__button" data="modal-info">INFO</div>
+  <main class="tab-content">
+    <div class="container ">
+      <div class="notifications-box tab-pane fade show" id="mot-msg">
+        <div class="notifications-box__reminder">
+          <span class="reminder__title">1-st Reminder</span>
+          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+            send no later than 1 day before car's MOT is dueThe second reminder</p>
+          <div class="reminder__buttons">
+            <div class="left__button">EDIT</div>
+            <div class="right__button" data="modal-info">INFO</div>
+          </div>
+          <div class="info-modal hide">
+            <div class="info-modal__title">
+              What is 1-st Reminder?
+            </div>
+            <div class="info-modal__text">
+              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+              </p>
+            </div>
+            <div class="info-modal__btn">
+              got it
+            </div>
+          </div>
         </div>
-        <div class="info-modal hide">
-          <div class="info-modal__title">
-            What is 1-st Reminder?
+        <div class="notifications-box__reminder">
+          <span class="reminder__title">2-st Reminder</span>
+          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+            send no later than 1 day before car's MOT is dueThe second reminder</p>
+          <div class="reminder__buttons">
+            <div class="left__button">EDIT</div>
+            <div class="right__button" data="modal-info">INFO</div>
           </div>
-          <div class="info-modal__text">
-            <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication allowed</span>). In this case customer will have 24 hours to reply in sms form.
-            Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>            
-            If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-          </p>
+          <div class="info-modal hide">
+            <div class="info-modal__title">
+              What is 1-st Reminder?
+            </div>
+            <div class="info-modal__text">
+              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+              </p>
+            </div>
+            <div class="info-modal__btn">
+              got it
+            </div>
           </div>
-          <div class="info-modal__btn">
-            got it
+        </div>
+        <div class="notifications-box__reminder">
+          <span class="reminder__title">Duty Of Care Reminder</span>
+          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+            send no later than 1 day before car's MOT is dueThe second reminder</p>
+          <div class="reminder__buttons">
+            <div class="left__button">eDIT</div>
+            <div class="right__button">INFO</div>
+          </div>
+          <div class="info-modal hide">
+            <div class="info-modal__title">
+              What is 1-st Reminder?
+            </div>
+            <div class="info-modal__text">
+              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+              </p>
+            </div>
+            <div class="info-modal__btn">
+              got it
+            </div>
+          </div>
+        </div>
+        <div class="notifications-box__reminder">
+          <span class="reminder__title">Out of Working Hours Message</span>
+          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+            send no later than 1 day before car's MOT is dueThe second reminder</p>
+          <div class="reminder__buttons">
+            <div class="left__button">EDIT</div>
+            <div class="right__button">INFO</div>
+          </div>
+          <div class="info-modal hide">
+            <div class="info-modal__title">
+              What is 1-st Reminder?
+            </div>
+            <div class="info-modal__text">
+              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+              </p>
+            </div>
+            <div class="info-modal__btn">
+              got it
+            </div>
+          </div>
+        </div>
+        <div class="notifications-box__reminder">
+          <span class="reminder__title">Workshop Call</span>
+          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+            send no later than 1 day before car's MOT is dueThe second reminder</p>
+          <div class="reminder__buttons">
+            <div class="left__button">EDIT</div>
+            <div class="right__button">INFO</div>
+          </div>
+          <div class="info-modal hide">
+            <div class="info-modal__title">
+              What is 1-st Reminder?
+            </div>
+            <div class="info-modal__text">
+              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+              </p>
+            </div>
+            <div class="info-modal__btn">
+              got it
+            </div>
+          </div>
+        </div>
+        <div class="notifications-box__reminder">
+          <span class="reminder__title">Opt-out Options</span>
+          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+            send no later than 1 day before car's MOT is dueThe second reminder</p>
+          <div class="reminder__buttons">
+            <div class="left__button">EDIT</div>
+            <div class="right__button">INFO</div>
+          </div>
+          <div class="info-modal hide">
+            <div class="info-modal__title">
+              What is 1-st Reminder?
+            </div>
+            <div class="info-modal__text">
+              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+              </p>
+            </div>
+            <div class="info-modal hide__btn">
+              got it
+            </div>
           </div>
         </div>
       </div>
-      <div class="notifications-box__reminder">
-        <span class="reminder__title">2-st Reminder</span>
-         <p class="reminder__text">The second reminder cannot be earlier than first reminder.  Second reminder should be send no later than 1 day before car's MOT is dueThe second reminder</p>
-         <div class="reminder__buttons">
-           <div class="left__button">EDIT</div>
-           <div class="right__button" data="modal-info">INFO</div>
-         </div>
-         <div class="info-modal hide">
-          <div class="info-modal__title">
-            What is 1-st Reminder?
-          </div>
-          <div class="info-modal__text">
-            <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication allowed</span>). In this case customer will have 24 hours to reply in sms form.
-            Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>            
-            If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-          </p>
-          </div>
-          <div class="info-modal__btn">
-            got it
-          </div>
-        </div>
-      </div>
-      <div class="notifications-box__reminder">
-        <span class="reminder__title">Duty Of Care Reminder</span>
-         <p class="reminder__text">The second reminder cannot be earlier than first reminder.  Second reminder should be send no later than 1 day before car's MOT is dueThe second reminder</p>
-         <div class="reminder__buttons">
-           <div class="left__button">eDIT</div>
-           <div class="right__button">INFO</div>
-         </div>
-         <div class="info-modal hide">
-          <div class="info-modal__title">
-            What is 1-st Reminder?
-          </div>
-          <div class="info-modal__text">
-            <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication allowed</span>). In this case customer will have 24 hours to reply in sms form.
-            Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>            
-            If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-          </p>
-          </div>
-          <div class="info-modal__btn">
-            got it
-          </div>
-        </div>
-      </div>
-      <div class="notifications-box__reminder">
-        <span class="reminder__title">Out of Working Hours Message</span>
-         <p class="reminder__text">The second reminder cannot be earlier than first reminder.  Second reminder should be send no later than 1 day before car's MOT is dueThe second reminder</p>
-         <div class="reminder__buttons">
-           <div class="left__button">EDIT</div>
-           <div class="right__button">INFO</div>
-         </div>
-         <div class="info-modal hide">
-          <div class="info-modal__title">
-            What is 1-st Reminder?
-          </div>
-          <div class="info-modal__text">
-            <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication allowed</span>). In this case customer will have 24 hours to reply in sms form.
-            Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>            
-            If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-          </p>
-          </div>
-          <div class="info-modal__btn">
-            got it
-          </div>
-        </div>
-      </div>
-      <div class="notifications-box__reminder">
-        <span class="reminder__title">Workshop Call</span>
-         <p class="reminder__text">The second reminder cannot be earlier than first reminder.  Second reminder should be send no later than 1 day before car's MOT is dueThe second reminder</p>
-         <div class="reminder__buttons">
-           <div class="left__button">EDIT</div>
-           <div class="right__button">INFO</div>
-         </div>
-         <div class="info-modal hide">
-          <div class="info-modal__title">
-            What is 1-st Reminder?
-          </div>
-          <div class="info-modal__text">
-            <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication allowed</span>). In this case customer will have 24 hours to reply in sms form.
-            Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>            
-            If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-          </p>
-          </div>
-          <div class="info-modal__btn">
-            got it
-          </div>
-        </div>
-      </div>
-      <div class="notifications-box__reminder">
-        <span class="reminder__title">Opt-out Options</span>
-        <p class="reminder__text">The second reminder cannot be earlier than first reminder.  Second reminder should be send no later than 1 day before car's MOT is dueThe second reminder</p>
-        <div class="reminder__buttons">
-          <div class="left__button">EDIT</div>
-          <div class="right__button">INFO</div>
-        </div>
-        <div class="info-modal hide">
-          <div class="info-modal__title">
-            What is 1-st Reminder?
-          </div>
-          <div class="info-modal__text">
-            <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication allowed</span>). In this case customer will have 24 hours to reply in sms form.
-            Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>            
-            If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-          </p>
-          </div>
-          <div class="info-modal hide__btn">
-            got it
-          </div>
-        </div>
-      </div>
+
     </div>
-    
-  </div>
-</main>
-<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+  </main>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
