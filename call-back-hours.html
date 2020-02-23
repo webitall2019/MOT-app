@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mot-app</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
+</head>
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <a href="index.html">MOT Reminder</a>
+      </div>
+      <ul class="header__header-list">
+        <li class="header-list__item active"><a href="#">Cars</a></li>
+        <li class="header-list__item"><a href="#">Imports</a></li>
+      </ul>
+      <div class="header__drop-down">
+        <span class="drop-down__number">workshop-10</span>
+        <img src="images/arrow-down.svg" alt="arrow-down">
+        <div class="drop-down-list">
+          <ul>
+            <li><a href="#">settings</a></li>
+            <li><a href="#">some text</a></li>
+            <li><a href="#">some text</a></li>
+            <li><a href="#">some text</a></li>
+            <li><a href="#">quit</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="settings-tabs tabs mb30">
+  <div class="container">
+    <ul class="tabs__list">
+      <li>
+        <a class="tabs__list__item " href="index.html"> <img src="images/ic-summary-active.svg"
+            alt="summary">General Information</a>
+      </li>
+      <li>
+        <a class="tabs__list__item active-tab" href="mot-notifications-settings.ht,l"><img src="images/ic-car-details-dark.svg" alt="car">MOT Notification Settings</a>
+      </li>
+      <li>
+        <a class="tabs__list__item" href="account.html"><img src="images/ic-customer-details-dark.svg"
+            alt="details">Account</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="container">
+  <div class="sub-tabs">
+    <span class="">MOT MESSAGES</span>
+    <span class="active">CALLBACK HOURS</span>
+  </div>
+  <div class="call-back-box">
+    <span class="workshop-title">
+      Workshop Phone Number
+    </span>
+      <form action="#" class="call-back-form">
+        <input type="text" class="workshop__tel" value="+380660012344">
+      </form>
+    </div>
+    <span class="workshop-sub-title">Your Call-Center Number (International format only)</span>
+  </div>
+
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
