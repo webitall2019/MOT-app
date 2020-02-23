@@ -97,7 +97,7 @@ input {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 980px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -375,7 +375,7 @@ input[name="comment"] {
 
 input[name="add-comment"] {
   width: 70px;
-  height: 45px;
+  height: 43px;
   color: #1d61e2;
   border: 1px solid #1d61e2;
   position: relative;
