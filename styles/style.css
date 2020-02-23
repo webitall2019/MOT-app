@@ -495,7 +495,7 @@ input[name="add-comment"]{
 .info-modal{
   position: absolute;
   top: 0;
-  right: -100%;
+  right: -322px;
   max-width: 260px;
   padding: 20px;
   font-size: 12px;
