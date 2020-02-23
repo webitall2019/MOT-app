@@ -606,7 +606,7 @@ input[name="add-comment"] {
   position: absolute;
   top: 0;
   right: -322px;
-  max-width: 260px;
+  max-width: 300px;
   padding: 20px;
   font-size: 12px;
   font-weight: 400;
