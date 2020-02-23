@@ -683,6 +683,9 @@ input[name="add-comment"] {
   font-weight: 500;
   padding-left: 20px;
 }
+.working-days-box-wrap{
+  flex-direction: column;
+}
 .working-days-box__submit-btn, .workshop__tel{
   width: 345px;
   height: 50px;
@@ -734,6 +737,8 @@ input[name="add-comment"] {
 .working-days-box__day{
   width: 63px;
   margin-right: 197px;
+  color: #333;
+  font-size: 12px;
 }
 .select-box{
   position: absolute;
@@ -798,13 +803,14 @@ input[type="checkbox"]:checked + label:after {
   opacity: 0;
   display: none;
 }
-.tab-content>.show {
+.tab-content .show {
   opacity: 1;
   display: flex;
 }
-.working-days-box>.tab-content>.show {
+.tab-content .show .working-days-box{
   display: block;
 }
+
 .hide {
   display: none;
   opacity: 0;
