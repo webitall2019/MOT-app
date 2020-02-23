@@ -58,166 +58,395 @@
     </div>
   </div>
   <div class="container">
-    <div class="sub-tabs nav-tabs">
-      <span class=""><a class="active" data-toggle="tab" href="#mot-msg">MOT MESSAGES</a></span>
-      <span class=""><a data-toggle="tab" href="#mot-work-days">CALLBACK HOURS</a></span>
-    </div>
+    <ul class="sub-tabs nav-tabs">
+      <li><a data-toggle="tab" href="#mot-msg" class="nav-tabs__tab active">MOT MESSAGES</a></li>
+      <li><a data-toggle="tab" href="#mot-work-days" class="nav-tabs__tab">CALLBACK HOURS</a></li>
+    </ul>
+   
     <div class="switcher mb54">
       <span>Enable Notifications</span>
       <div class="switcher_btn"><span class="switcher_btn-inside"></span></div>
     </div>
   </div>
-  <main class="tab-content">
+  <main>
     <div class="container ">
-      <div class="notifications-box tab-pane fade show" id="mot-msg">
-        <div class="notifications-box__reminder">
-          <span class="reminder__title">1-st Reminder</span>
-          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
-            send no later than 1 day before car's MOT is dueThe second reminder</p>
-          <div class="reminder__buttons">
-            <div class="left__button">EDIT</div>
-            <div class="right__button" data="modal-info">INFO</div>
+      <div class="tab-content">
+        <div class="notifications-box tab-pane fade active show" id="mot-msg">
+          <div class="notifications-box__reminder">
+            <span class="reminder__title">1-st Reminder</span>
+            <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+              send no later than 1 day before car's MOT is dueThe second reminder</p>
+            <div class="reminder__buttons">
+              <div class="left__button">EDIT</div>
+              <div class="right__button" data="modal-info">INFO</div>
+            </div>
+            <div class="info-modal hide">
+              <div class="info-modal__title">
+                What is 1-st Reminder?
+              </div>
+              <div class="info-modal__text">
+                <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                    allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                  Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                  If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+                </p>
+              </div>
+              <div class="info-modal__btn">
+                got it
+              </div>
+            </div>
           </div>
-          <div class="info-modal hide">
-            <div class="info-modal__title">
-              What is 1-st Reminder?
+          <div class="notifications-box__reminder">
+            <span class="reminder__title">2-st Reminder</span>
+            <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+              send no later than 1 day before car's MOT is dueThe second reminder</p>
+            <div class="reminder__buttons">
+              <div class="left__button">EDIT</div>
+              <div class="right__button" data="modal-info">INFO</div>
             </div>
-            <div class="info-modal__text">
-              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
-                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
-                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
-                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-              </p>
+            <div class="info-modal hide">
+              <div class="info-modal__title">
+                What is 1-st Reminder?
+              </div>
+              <div class="info-modal__text">
+                <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                    allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                  Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                  If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+                </p>
+              </div>
+              <div class="info-modal__btn">
+                got it
+              </div>
             </div>
-            <div class="info-modal__btn">
-              got it
+          </div>
+          <div class="notifications-box__reminder">
+            <span class="reminder__title">Duty Of Care Reminder</span>
+            <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+              send no later than 1 day before car's MOT is dueThe second reminder</p>
+            <div class="reminder__buttons">
+              <div class="left__button">eDIT</div>
+              <div class="right__button">INFO</div>
+            </div>
+            <div class="info-modal hide">
+              <div class="info-modal__title">
+                What is 1-st Reminder?
+              </div>
+              <div class="info-modal__text">
+                <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                    allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                  Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                  If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+                </p>
+              </div>
+              <div class="info-modal__btn">
+                got it
+              </div>
+            </div>
+          </div>
+          <div class="notifications-box__reminder">
+            <span class="reminder__title">Out of Working Hours Message</span>
+            <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+              send no later than 1 day before car's MOT is dueThe second reminder</p>
+            <div class="reminder__buttons">
+              <div class="left__button">EDIT</div>
+              <div class="right__button">INFO</div>
+            </div>
+            <div class="info-modal hide">
+              <div class="info-modal__title">
+                What is 1-st Reminder?
+              </div>
+              <div class="info-modal__text">
+                <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                    allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                  Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                  If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+                </p>
+              </div>
+              <div class="info-modal__btn">
+                got it
+              </div>
+            </div>
+          </div>
+          <div class="notifications-box__reminder">
+            <span class="reminder__title">Workshop Call</span>
+            <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+              send no later than 1 day before car's MOT is dueThe second reminder</p>
+            <div class="reminder__buttons">
+              <div class="left__button">EDIT</div>
+              <div class="right__button">INFO</div>
+            </div>
+            <div class="info-modal hide">
+              <div class="info-modal__title">
+                What is 1-st Reminder?
+              </div>
+              <div class="info-modal__text">
+                <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                    allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                  Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                  If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+                </p>
+              </div>
+              <div class="info-modal__btn">
+                got it
+              </div>
+            </div>
+          </div>
+          <div class="notifications-box__reminder">
+            <span class="reminder__title">Opt-out Options</span>
+            <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
+              send no later than 1 day before car's MOT is dueThe second reminder</p>
+            <div class="reminder__buttons">
+              <div class="left__button">EDIT</div>
+              <div class="right__button">INFO</div>
+            </div>
+            <div class="info-modal hide">
+              <div class="info-modal__title">
+                What is 1-st Reminder?
+              </div>
+              <div class="info-modal__text">
+                <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
+                    allowed</span>). In this case customer will have 24 hours to reply in sms form.
+                  Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
+                  If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
+                </p>
+              </div>
+              <div class="info-modal hide__btn">
+                got it
+              </div>
             </div>
           </div>
         </div>
-        <div class="notifications-box__reminder">
-          <span class="reminder__title">2-st Reminder</span>
-          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
-            send no later than 1 day before car's MOT is dueThe second reminder</p>
-          <div class="reminder__buttons">
-            <div class="left__button">EDIT</div>
-            <div class="right__button" data="modal-info">INFO</div>
+        <div class="working-days-box info-block tab-pane fade" id="mot-work-days">
+          <div class="info-block__title">
+            <span class="title__descr"><img src="images/ic-working-hours.svg" alt="clock">
+            Days and Working Hours</span>
+            <div class="from-to">
+              <span>From</span>
+              <span>To</span>
+            </div>
+          
           </div>
-          <div class="info-modal hide">
-            <div class="info-modal__title">
-              What is 1-st Reminder?
-            </div>
-            <div class="info-modal__text">
-              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
-                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
-                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
-                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-              </p>
-            </div>
-            <div class="info-modal__btn">
-              got it
-            </div>
-          </div>
+          <ul class="details__info">
+            <li class=""><span class="working-days-box__day">Monday</span>
+              <input type="checkbox" id="check1"><label for="check1"></label>
+              <div class="select-box hide">
+                <div class="select-box__from">
+                  <select name="from" id="from">
+                    <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+                <div class="select-box__to">
+                  <select name="to" id="to">
+                    <option value="">10:00</option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+              </div>
+            </li>
+            <li class=""><span class="working-days-box__day">Tuesday</span>
+              <input type="checkbox" id="check2"><label for="check2"></label>
+              <div class="select-box hide">
+                <div class="select-box__from">
+                  <select name="from" id="from">
+                    <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+                <div class="select-box__to">
+                  <select name="to" id="to">
+                    <option value="">10:00</option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+              </div></li>
+            <li class=""><span class="working-days-box__day">Wednesday</span>
+              <input type="checkbox" id="check3"><label for="check3"></label>
+              <div class="select-box hide">
+                <div class="select-box__from">
+                  <select name="from" id="from">
+                    <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+                <div class="select-box__to">
+                  <select name="to" id="to">
+                    <option value="">10:00</option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+              </div></li>
+            <li class=""><span class="working-days-box__day">Thursday</span>
+              <input type="checkbox" id="check4"><label for="check4"></label>
+              <div class="select-box hide">
+                <div class="select-box__from">
+                  <select name="from" id="from">
+                    <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+                <div class="select-box__to">
+                  <select name="to" id="to">
+                    <option value="">10:00</option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+              </div></li>
+            <li class=""><span class="working-days-box__day">Friday</span>
+              <input type="checkbox" id="check5"><label for="check5"></label>
+            <div class="select-box hide">
+                <div class="select-box__from">
+                  <select name="from" id="from">
+                    <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+                <div class="select-box__to">
+                  <select name="to" id="to">
+                    <option value="">10:00</option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+              </div></li>
+            <li class=""><span class="working-days-box__day">Saturday</span>
+              <input type="checkbox" id="check6"><label for="check6"></label>
+            <div class="select-box hide">
+                <div class="select-box__from">
+                  <select name="from" id="from">
+                    <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+                <div class="select-box__to">
+                  <select name="to" id="to">
+                    <option value="">10:00</option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+              </div></li>
+            <li class=""><span class="working-days-box__day">Sunday</span>
+              <input type="checkbox" id="check7"><label for="check7"></label>
+            <div class="select-box hide">
+                <div class="select-box__from">
+                  <select name="from" id="from">
+                    <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+                <div class="select-box__to">
+                  <select name="to" id="to">
+                    <option value="">10:00</option>
+                    <option value="">11:00</option>
+                    <option value="">12:00</option>
+                    <option value="">13:00</option>
+                    <option value="">14:00</option>
+                    <option value="">15:00</option>
+                    <option value="">16:00</option>
+                    <option value="">17:00</option>
+                    <option value="">18:00</option>
+                  </select>
+                </div>
+              </div></li>
+          </ul>
         </div>
-        <div class="notifications-box__reminder">
-          <span class="reminder__title">Duty Of Care Reminder</span>
-          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
-            send no later than 1 day before car's MOT is dueThe second reminder</p>
-          <div class="reminder__buttons">
-            <div class="left__button">eDIT</div>
-            <div class="right__button">INFO</div>
-          </div>
-          <div class="info-modal hide">
-            <div class="info-modal__title">
-              What is 1-st Reminder?
-            </div>
-            <div class="info-modal__text">
-              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
-                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
-                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
-                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-              </p>
-            </div>
-            <div class="info-modal__btn">
-              got it
-            </div>
-          </div>
-        </div>
-        <div class="notifications-box__reminder">
-          <span class="reminder__title">Out of Working Hours Message</span>
-          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
-            send no later than 1 day before car's MOT is dueThe second reminder</p>
-          <div class="reminder__buttons">
-            <div class="left__button">EDIT</div>
-            <div class="right__button">INFO</div>
-          </div>
-          <div class="info-modal hide">
-            <div class="info-modal__title">
-              What is 1-st Reminder?
-            </div>
-            <div class="info-modal__text">
-              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
-                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
-                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
-                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-              </p>
-            </div>
-            <div class="info-modal__btn">
-              got it
-            </div>
-          </div>
-        </div>
-        <div class="notifications-box__reminder">
-          <span class="reminder__title">Workshop Call</span>
-          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
-            send no later than 1 day before car's MOT is dueThe second reminder</p>
-          <div class="reminder__buttons">
-            <div class="left__button">EDIT</div>
-            <div class="right__button">INFO</div>
-          </div>
-          <div class="info-modal hide">
-            <div class="info-modal__title">
-              What is 1-st Reminder?
-            </div>
-            <div class="info-modal__text">
-              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
-                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
-                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
-                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-              </p>
-            </div>
-            <div class="info-modal__btn">
-              got it
-            </div>
-          </div>
-        </div>
-        <div class="notifications-box__reminder">
-          <span class="reminder__title">Opt-out Options</span>
-          <p class="reminder__text">The second reminder cannot be earlier than first reminder. Second reminder should be
-            send no later than 1 day before car's MOT is dueThe second reminder</p>
-          <div class="reminder__buttons">
-            <div class="left__button">EDIT</div>
-            <div class="right__button">INFO</div>
-          </div>
-          <div class="info-modal hide">
-            <div class="info-modal__title">
-              What is 1-st Reminder?
-            </div>
-            <div class="info-modal__text">
-              <p>On the first day of Reminder this will be sent to the customer (<span>If the Text MOT communication
-                  allowed</span>). In this case customer will have 24 hours to reply in sms form.
-                Otherwise Duty of care notification will be sent (<span>if duty of care turned on</span>).<br><br>
-                If there will be no reply from customer in 24 hours, the <span>2-nd Reminder</span> will be activated.
-              </p>
-            </div>
-            <div class="info-modal hide__btn">
-              got it
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </main>
+    </div>
+  </main> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>

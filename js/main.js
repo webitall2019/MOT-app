@@ -40,15 +40,25 @@ document.addEventListener("DOMContentLoaded", function(){
   var body = document.querySelector('body');
   var body_wrap = document.querySelector('body-wrap');
   var got_it_btn = document.querySelectorAll('.info-modal__btn');
+  var tabs = document.querySelectorAll('.nav-tabs__tab');
+  /* for(let i=0; i< tabs.length; i++){
+    if(tabs[i].classList.contains('active')){
+      
+    }
+  } */
   for(let i=0; i < info_btn.length; i++ ){
     
     info_btn[i].addEventListener('click', function(){
       body.classList.add('body-wrap');
       info_modal_box[i].classList.remove('hide');
     });
-    got_it_btn[i].addEventListener('click', function(){
-      body.classList.remove('body-wrap');
-      info_modal_box[i].classList.add('hide');
-    })      
+    if(got_it_btn[i]){
+      got_it_btn[i].addEventListener('click', function(){
+        body.classList.remove('body-wrap');
+        info_modal_box[i].classList.add('hide');
+      })    
+    }
+      
   }
+
 });
