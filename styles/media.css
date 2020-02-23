@@ -5,7 +5,7 @@
   }
   
   .notifications-box__reminder, .notifications-box__reminder:nth-child(3n+3){
-    flex-basis: 25%;
+    flex-basis: 31%;
     margin-right: 10px;
   }
 }

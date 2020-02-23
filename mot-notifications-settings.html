@@ -57,18 +57,18 @@
     </div>
   </div>
   <div class="container">
-    <div class="sub-tabs">
-      <span class="active">MOT MESSAGES</span>
-      <span class="">CALLBACK HOURS</span>
+    <div class="sub-tabs nav-tabs">
+      <span class=""><a class="active" data-toggle="tab" href="#mot-msg">MOT MESSAGES</a></span>
+      <span class=""><a data-toggle="tab" href="#mot-work-days">CALLBACK HOURS</a></span>
     </div>
     <div class="switcher mb54">
       <span>Enable Notifications</span>
       <div class="switcher_btn"><span class="switcher_btn-inside"></span></div>
     </div>
   </div>
-<main>
-  <div class="container">
-    <div class="notifications-box">
+<main class="tab-content">
+  <div class="container ">
+    <div class="notifications-box tab-pane fade show" id="mot-msg">
       <div class="notifications-box__reminder">
         <span class="reminder__title">1-st Reminder</span>
         <p class="reminder__text">The second reminder cannot be earlier than first reminder.  Second reminder should be send no later than 1 day before car's MOT is dueThe second reminder</p>
@@ -202,6 +202,7 @@
         </div>
       </div>
     </div>
+    
   </div>
 </main>
 <script

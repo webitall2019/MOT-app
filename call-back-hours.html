@@ -40,11 +40,12 @@
   <div class="container">
     <ul class="tabs__list">
       <li>
-        <a class="tabs__list__item " href="index.html"> <img src="images/ic-summary-active.svg"
-            alt="summary">General Information</a>
+        <a class="tabs__list__item " href="index.html"> <img src="images/ic-summary-active.svg" alt="summary">General
+          Information</a>
       </li>
       <li>
-        <a class="tabs__list__item active-tab" href="mot-notifications-settings.ht,l"><img src="images/ic-car-details-dark.svg" alt="car">MOT Notification Settings</a>
+        <a class="tabs__list__item active-tab" href="mot-notifications-settings.ht,l"><img
+            src="images/ic-car-details-dark.svg" alt="car">MOT Notification Settings</a>
       </li>
       <li>
         <a class="tabs__list__item" href="account.html"><img src="images/ic-customer-details-dark.svg"
@@ -62,19 +63,246 @@
     <span class="workshop-title">
       Workshop Phone Number
     </span>
-      <form action="#" class="call-back-form">
-        <input type="text" class="workshop__tel" value="+380660012344">
-      </form>
-    </div>
+    <form action="#" class="call-back-form">
+      <input type="text" class="workshop__tel" value="+380660012344" placeholder="+380660012344">
+    </form>
     <span class="workshop-sub-title">Your Call-Center Number (International format only)</span>
   </div>
 
-  <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+  <div class="working-days-box info-block">
+    <div class="info-block__title">
+      <span class="title__descr"><img src="images/ic-working-hours.svg" alt="clock">
+      Days and Working Hours</span>
+      <div class="from-to">
+        <span>From</span>
+        <span>To</span>
+      </div>
+    
+    </div>
+    <ul class="details__info">
+      <li class=""><span class="working-days-box__day">Monday</span>
+        <input type="checkbox" id="check1"><label for="check1"></label>
+        <div class="select-box hide">
+          <div class="select-box__from">
+            <select name="from" id="from">
+              <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+          <div class="select-box__to">
+            <select name="to" id="to">
+              <option value="">10:00</option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+        </div>
+      </li>
+      <li class=""><span class="working-days-box__day">Tuesday</span>
+        <input type="checkbox" id="check2"><label for="check2"></label>
+        <div class="select-box hide">
+          <div class="select-box__from">
+            <select name="from" id="from">
+              <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+          <div class="select-box__to">
+            <select name="to" id="to">
+              <option value="">10:00</option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+        </div></li>
+      <li class=""><span class="working-days-box__day">Wednesday</span>
+        <input type="checkbox" id="check3"><label for="check3"></label>
+        <div class="select-box hide">
+          <div class="select-box__from">
+            <select name="from" id="from">
+              <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+          <div class="select-box__to">
+            <select name="to" id="to">
+              <option value="">10:00</option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+        </div></li>
+      <li class=""><span class="working-days-box__day">Thursday</span>
+        <input type="checkbox" id="check4"><label for="check4"></label>
+        <div class="select-box hide">
+          <div class="select-box__from">
+            <select name="from" id="from">
+              <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+          <div class="select-box__to">
+            <select name="to" id="to">
+              <option value="">10:00</option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+        </div></li>
+      <li class=""><span class="working-days-box__day">Friday</span>
+        <input type="checkbox" id="check5"><label for="check5"></label>
+      <div class="select-box hide">
+          <div class="select-box__from">
+            <select name="from" id="from">
+              <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+          <div class="select-box__to">
+            <select name="to" id="to">
+              <option value="">10:00</option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+        </div></li>
+      <li class=""><span class="working-days-box__day">Saturday</span>
+        <input type="checkbox" id="check6"><label for="check6"></label>
+      <div class="select-box hide">
+          <div class="select-box__from">
+            <select name="from" id="from">
+              <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+          <div class="select-box__to">
+            <select name="to" id="to">
+              <option value="">10:00</option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+        </div></li>
+      <li class=""><span class="working-days-box__day">Sunday</span>
+        <input type="checkbox" id="check7"><label for="check7"></label>
+      <div class="select-box hide">
+          <div class="select-box__from">
+            <select name="from" id="from">
+              <option value="">10:00 <img src="images/arrow-down.svg" alt=""> </option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+          <div class="select-box__to">
+            <select name="to" id="to">
+              <option value="">10:00</option>
+              <option value="">11:00</option>
+              <option value="">12:00</option>
+              <option value="">13:00</option>
+              <option value="">14:00</option>
+              <option value="">15:00</option>
+              <option value="">16:00</option>
+              <option value="">17:00</option>
+              <option value="">18:00</option>
+            </select>
+          </div>
+        </div></li>
+    </ul>
+  </div>
+    <button type="submit" class="working-days-box__submit-btn">SAVE CHANGES</button>
+
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
