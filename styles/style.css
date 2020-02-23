@@ -526,6 +526,7 @@ input[name="add-comment"]{
 }
 .info-modal__text{
   margin-bottom: 115px;
+  user-select: none;
 }
 .info-modal__text span{
   font-weight: 500;
@@ -537,6 +538,11 @@ input[name="add-comment"]{
   padding: 6px;
   border: 1px solid #3973e6;
   text-align: center;
+  cursor: pointer;
+}
+.info-modal__btn:hover{
+  background-color: #bbcef5;
+  border: 1px solid #bbcef5;
 }
 .show{
   display: block;

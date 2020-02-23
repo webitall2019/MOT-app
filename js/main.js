@@ -46,12 +46,9 @@ document.addEventListener("DOMContentLoaded", function(){
       body.classList.add('body-wrap');
       info_modal_box[i].classList.remove('hide');
     });
-          got_it_btn[i].addEventListener('click', function(){
-          body.classList.remove('body-wrap');
-          info_modal_box[i].classList.add('hide');
-        })
+    got_it_btn[i].addEventListener('click', function(){
+      body.classList.remove('body-wrap');
+      info_modal_box[i].classList.add('hide');
+    })      
   }
-  
-  
-  
 });
