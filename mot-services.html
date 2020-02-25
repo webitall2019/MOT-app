@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mot-app</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/media.css">
+  <link rel="stylesheet" href="fonts/fonts.css">
+</head>
+
+<body>
+  <!-- header  -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="index.html">MOT Reminder</a>
+        </div>
+        <ul class="header__header-list">
+          <li class="header-list__item active"><a href="#">Cars</a></li>
+          <li class="header-list__item"><a href="imports.html">Imports</a></li>
+        </ul>
+        <div class="header__drop-down">
+          <span class="drop-down__number">workshop-10</span>
+          <img src="images/arrow-down.svg" alt="arrow-down">
+          <div class="drop-down-list">
+            <ul>
+              <li><a href="#">settings</a></li>
+              <li><a href="#">some text</a></li>
+              <li><a href="#">some text</a></li>
+              <li><a href="#">some text</a></li>
+              <li><a href="#">quit</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header  -->
+
+  <!-- service tabs  -->
+  <div class="tabs mb50">
+    <div class="container">
+      <ul class="tabs__list">
+        <li>
+          <a class="tabs__list__item " href="index.html"> <img src="images/ic-summary-active.svg"
+              alt="summary">Summary</a>
+        </li>
+        <li>
+          <a class="tabs__list__item" href="car-details.html"><img src="images/ic-car-details-dark.svg" alt="car">Car
+            Details</a>
+        </li>
+        <li>
+          <a class="tabs__list__item" href="customer.html"><img src="images/ic-customer-details-dark.svg"
+              alt="details">Customer
+            Details</a></li>
+        <li>
+          <a class="tabs__list__item active-tab" href="#"><img src="images/ic-mot-service.svg" alt="service">MOT Services</a>
+        </li>
+        <li>
+          <a class="tabs__list__item" href="#"><img src="images/ic-gdpr.svg" alt="GDPR">GDPR</a></li>
+        <li>
+          <a class="tabs__list__item" href="#"><img src="images/ic-actions-log.svg" alt="actions">Actions Log</a></li>
+        <li>
+          <a class="tabs__list__item" href="#"><img src="images/ic-system-logs.svg" alt="system">System Logs</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <main class="mot-services">
+      <div class="left-side__details info-block">
+        <div class="details__title info-block__title">
+          <img src="images/ic-latest-mot-dark.svg" alt="user" class="title__img">
+          <span class="title__text">Latest MOT</span>
+          <span class="title__hide-history">Hide History</span>
+        </div>
+        <ul class="details__info">
+          <li class="info__mot-test-number">
+            <span>MOT test Number</span>
+            <span class="mot-test-number">621385194632</span>
+          </li>
+          <li class="info__odometer-value-field">
+            <span>Odometer</span>
+            <span class="odometer-value-field__current-value">34494 mi</span>
+          </li>
+          <li class="info__test-result">
+            <span>Test Result</span>
+            <span class="test-result__current-result">passed</span>
+          </li>
+          <li class="info__expiry">
+            <span>Expiry Date</span>
+            <span class="expiry-date">2020-06-13</span>
+          </li>
+          <li class="info__completed-date">
+            <span>Completed Date</span>
+            <span class="completed-date__current">2019-06-14 11:38:09</span>
+          </li>
+        </ul>
+      </div>
+      <!--right side-->
+      <div class="right-side__details info-block comments">
+        <div class="details__title info-block__title">
+          <img src="images/ic-comments-dark.svg" alt="user" class="title__img">
+          <span class="title__text">Comments</span>
+        </div>
+        <form action="#" class="comment-form">
+          <input type="text" name="comment">
+          <input type="submit" name="add-comment" value="ADD">
+        </form>
+        <ul class="details__info comments-box">
+          <li>
+            <span class="comment-box__text">Potential to upsell breaks</span>
+            <span class="comment-box__date"> 29-05-2020</span>
+          </li>
+          <li>
+            <span class="comment-box__text">Potential to upsell breaks</span>
+            <span class="comment-box__date"> 29-05-1988</span>
+          </li>
+          <li>
+            <span class="comment-box__text">Potential to upsell breaks</span>
+            <span class="comment-box__date"> 29-05-2014</span>
+          </li>
+          <li>
+            <span class="comment-box__text">Potential to upsell breaks</span>
+            <span class="comment-box__date"> 29-05-2035</span>
+          </li>
+        </ul>
+      </div>
+      <div class="advisory-block">
+        <div class="info-block">
+          <div class="info-block__title">
+            <img src="images/ic-advisory-items.svg" alt="tools">Advisory Items
+          </div>
+          <ul>
+            <li>
+              <span>Front brake disc exessively pitted (3.5.1)</span>
+              <span>FAIL</span>
+            </li>
+            <li><span>Nearside Rear wheel bearing has skight play (2.6.2)</span>
+              <span class="pink">FAIL</span></li>
+            <li><span>Nearside Parking Brake efficiency below requirements (1.4.2)</span>
+              <span class="pink">Major</span></li>
+            <li><span>Front brake disk excessively pitted (3.5.1 h)</span>
+              <span class="pink">DUNGEROUS</span></li>
+            <li><span>Tyres wearing unevenly</span>
+              <span>USER ENTERED</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="left-side__details info-block">
+        <div class="details__title info-block__title">
+          <img src="images/ic-latest-mot-dark.svg" alt="user" class="title__img">
+          <span class="title__text">Previous MOT</span>
+          <span class="title__hide-history">Hide History</span>
+        </div>
+        <ul class="details__info">
+          <li class="info__mot-test-number">
+            <span>MOT test Number</span>
+            <span class="mot-test-number">621385194632</span>
+          </li>
+          <li class="info__odometer-value-field">
+            <span>Odometer</span>
+            <span class="odometer-value-field__current-value">34494 mi</span>
+          </li>
+          <li class="info__test-result">
+            <span>Test Result</span>
+            <span class="test-result__current-result">passed</span>
+          </li>
+          <li class="info__expiry">
+            <span>Expiry Date</span>
+            <span class="expiry-date">2020-06-13</span>
+          </li>
+          <li class="info__completed-date">
+            <span>Completed Date</span>
+            <span class="completed-date__current">2019-06-14 11:38:09</span>
+          </li>
+        </ul>
+      </div>
+      <div class="right-side__details info-block comments">
+        <div class="details__title info-block__title">
+          <img src="images/ic-comments-dark.svg" alt="user" class="title__img">
+          <span class="title__text">Comments</span>
+        </div>
+        <form action="#" class="comment-form">
+          <input type="text" name="comment">
+          <input type="submit" name="add-comment" value="ADD">
+        </form>
+        <ul class="details__info comments-box">
+          <li>
+            <span class="comment-box__text">Potential to upsell breaks</span>
+            <span class="comment-box__date"> 29-05-2020</span>
+          </li>
+          <li>
+            <span class="comment-box__text">Potential to upsell breaks</span>
+            <span class="comment-box__date"> 29-05-1988</span>
+          </li>
+          <li>
+            <span class="comment-box__text">Potential to upsell breaks</span>
+            <span class="comment-box__date"> 29-05-2014</span>
+          </li>
+          <li>
+            <span class="comment-box__text">Potential to upsell breaks</span>
+            <span class="comment-box__date"> 29-05-2035</span>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

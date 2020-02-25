@@ -19,6 +19,9 @@ body {
 .active {
   color: #1d61e2;
 }
+.pink{
+  color: #fa649f;
+}
 .nav-tabs span>.active{
   color: #1d61e2;
 }
@@ -375,6 +378,7 @@ input[name="comment"] {
   height: 43px;
   border: 1px solid #e6e6e6;
   font-size: 16px;
+  padding: 5px;
 }
 
 input[name="add-comment"] {
@@ -895,6 +899,51 @@ margin-right: 36px;
 }
 .buttons-box__btn:first-child{
   margin-right: 20px;
+}
+/* mot-services styles */
+.mot-services{
+  display: flex;
+  flex-wrap: wrap;
+}
+.mot-services .info-block{
+  flex-basis: 48.9%;
+}
+.mot-services .left-side__details{
+  margin-right: 20px;
+}
+
+.comments .details__info{
+  padding: 0px 20px;
+}
+.comments  .details__info li{
+  padding: 5px;
+  color: #808080;
+  font-size: 14px;
+  border: none;
+}
+/* advisory-block styles */
+.advisory-block{
+  width: 100%;
+}
+.advisory-block .info-block__title img{
+  margin-right: 15px; 
+}
+.advisory-block ul {
+  padding: 0 20px;
+}
+.advisory-block ul li{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.advisory-block ul li span:last-child{
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.advisory-block ul li:last-child{
+  border-bottom: none;
 }
 .hide {
   display: none;
