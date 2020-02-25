@@ -28,7 +28,8 @@ body {
 }
 
 .active-bg {
-  background-color: #3973e6;
+  background-color: #3973e6!important;
+  color: #fff!important;
 }
 
 .box-info-fail {
@@ -807,10 +808,94 @@ input[type="checkbox"]:checked + label:after {
   opacity: 1;
   display: flex;
 }
-.tab-content .show .working-days-box{
+.tab-content .working-days-box>.show{
   display: block;
 }
-
+/* import styles */
+.import {
+  display: flex;
+}
+.import__title{
+  margin-bottom: 48px;
+}
+.import__sub-title{
+margin-bottom: 19px;
+}
+.import-left-column{
+  margin-right: 20px;
+}
+.import-left-column{
+  width: 300px;
+  max-width: 20%;
+  height: 394px;
+  padding: 20px;
+  font-size: 12px;
+}
+.import-right-column .info-block__title {
+  font-size: 12px;
+  font-weight: normal;
+  color:  #808080;
+}
+.import-right-column .info-block__title-item:first-child{
+  margin-right: 74px;
+}
+.import-right-column .info-block__title-item:nth-child(2){
+  margin-right: 53px;
+}
+.import-right-column .info-block__title-item:nth-child(3){
+  margin-right: 92px;
+}
+.import-right-column .info-block__title-item:nth-child(4){
+margin-right: 36px;
+}
+.import-right-column__table{
+  display: flex;
+}
+.import-right-column__table-item:first-child{
+  width: 118px;
+  margin-right: 25px;
+}
+.import-right-column__table-item:nth-child(2){
+  width: 60px;
+  margin-right: 36px;
+}
+.import-right-column__table-item:nth-child(3){
+  width: 140px;
+  margin-right: 35px;
+}
+.import-right-column__table-item:nth-child(4){
+  width: 90px;    
+}
+.import-right-column__table-item:last-child span{
+  margin-right: 5px;
+}
+.import-right-column__table-item:last-child .active{
+  text-decoration: underline;
+}
+.import-right-column .details__info li{
+  padding: 0;
+}
+.import .info-block{
+  margin-bottom: 10px;
+}
+.total-records{
+  margin-bottom: 29px;
+  display: block;
+}
+.buttons-box__btn{
+  width: 300px;
+  padding: 15px 87px;
+  font-size: 14px;
+  color: #3973e6;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: transparent;
+  border: solid 1px #3973e6;
+  cursor: pointer;
+}
+.buttons-box__btn:first-child{
+  margin-right: 20px;
+}
 .hide {
   display: none;
   opacity: 0;
